@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ha1"
+    android:id="@+id/aux"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#DDFFFFFF"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:id="@+id/nom"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom1"
+            android:textColor="#000000"
+            android:layout_marginLeft="100dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apellido"
+            android:id="@+id/apellido"
+            android:textColor="#000000"
+            android:layout_marginTop="55dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellido1"
+            android:textColor="#000000"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edad"
+            android:id="@+id/edad"
+            android:textColor="#000000"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edad1"
+            android:textColor="#000000"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="95dp"
+            android:textSize="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guardar"
+            android:text="Guardar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/cargar"
+            android:text="Cargar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cambia"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="105dp"
+            android:text="Cambia \nimagen"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pers"
+            android:layout_marginTop="50dp"
+            android:text="Guarda \npersona"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:background="#DDFFFFFF"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="7"
+            android:scrollbars="vertical"
+            android:text="Vacio"
+            android:id="@+id/personas"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -7,16 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="#555555"
     tools:context="edu.ub.pis2016.mmanjarrez.ejemplo_examen.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000000"
         android:text="Hello World!" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola"
+        android:id="@+id/btn"
+        android:text="Comienza"
         android:layout_marginTop="40dp"/>
 </RelativeLayout>

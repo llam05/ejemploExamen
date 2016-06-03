@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ejemplo_Examen</string>
+    <string name="app_name">Prueba para examen</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+
 </resources>
